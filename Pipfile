@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+django = "==3.0.2"
+django-filter = "*"
+pillow = "*"
+python-dotenv = "*"
+
+[requires]
+python_version = "3.7"
